@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+.container{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+}
+.form-data{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(4fr,1fr);
+
+}
+.m-t-30{
+    margin-top: 30px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea{
+    padding: 10px;
+    display: block;
+    margin-left: 12px;
+    margin: 0 10 20px;
+    width: 50%;
+    box-sizing: border-box; 
+    /* content ka size acc to box hoga */
+    font-family: Monaco monospace;
+    border: solid 1px #777;
+    /* border-top: none; */
+    /* outline: none; */
+}
+
+
+
+.Rounded_Rectangle_1 {
+    border-radius: 10px;
+    background-color:#D5CFE1;
+    position: absolute;
+    left: 804px;
+    top: 65px;
+    width: 500px;
+    height: 300px;
+    z-index: 2;
+    box-shadow: lightslategrey;
+    /* grid-area: card; */
+  }
+
+  .Name h2{
+    font-size: 1.2em;
+    font-family: "Lucida Sans Unicode";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 832px;
+    top: 55px;
+    z-index: 5;
+    grid-area: card;
+    padding-top: 40px;
+  }
+
+  .address {
+    width: 20%;
+    font-size: 1.2em;
+    font-family: "Lucida Sans Unicode";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: justify;
+    position: absolute;
+    left: 832px;
+    top: 110px;
+    grid-area: card;
+    z-index: 5;
+    padding-top: 40px;
+  }
+
+  .phone-number{
+    
+        width: 20%;
+        font-size: 1.2em;
+        grid-area: card;
+        font-family: "Lucida Sans Unicode";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: justify;
+        position: absolute;
+        left: 832px;
+        top: 165px;
+        z-index: 5;
+        padding-top: 40px;
+      
+  }
+
+  .street-address{
+    
+    width: 20%;
+    font-size: 1.2em;
+    font-family: "Lucida Sans Unicode";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: justify;
+    grid-area: card;
+    position: absolute;
+    left: 832px;
+    padding-top: 40px;
+    top: 220px;
+    z-index: 5;
+  
+}
+
+
+  .Layer_2 img{
+    /* background-image: url("download.png"); */
+    position: absolute;
+    left: 1070px;
+    top: 50px;
+    /* right: 105px; */
+    border-radius: 15px;
+    width: 230px;
+    height: 220px;
+    padding-top: 40px;
+    grid-area: card;
+    z-index: 6;
+  }
