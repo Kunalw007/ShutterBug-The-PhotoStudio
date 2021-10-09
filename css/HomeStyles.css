@@ -1,0 +1,61 @@
+*{
+margin: 0;padding: 0;
+}
+.data {
+    list-style-type: none;
+    overflow: hidden;
+    border-bottom: 2px solid gray;
+    box-shadow: 3px;
+  }
+  
+  .mainlist.rightSide {
+    float: right;
+  }
+  :root{
+    --primary-color: #e9ebf8;
+    --dark-color:#333;
+}
+  .bold{
+      text-align: center;
+      font-family: 'Stylish', sans-serif;
+      font-size: 60px;
+      color: #5C4033;
+      font-weight: 150;
+
+  }
+  .title{
+    /* padding: 24px 10px;  */
+    background-image: url("/images/insect.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 43% top;
+    margin-top: 20px;
+    top: 0;
+    margin-bottom: 30px;
+
+  }
+  .bold{
+      margin-top: 33px;
+  }
+  .mainlist {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif;;
+    text-align: center; 
+    padding: 14px 16px;
+}
+
+  .mainlist:not(.active):hover {
+    background-color: rgb(203, 203, 207);
+  }
+  
+ 
+  
