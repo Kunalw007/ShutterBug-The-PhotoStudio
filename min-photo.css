@@ -13,9 +13,16 @@
 
 }
 .m-t-30{
-    margin-top: 30px;
+    margin-top: 12px;
+    margin-left: 20px;
 }
 
+.header{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;;
+}
 input[type="text"],
 input[type="tel"],
 input[type="email"],
@@ -39,8 +46,8 @@ textarea{
     border-radius: 10px;
     background-color:#D5CFE1;
     position: absolute;
-    left: 804px;
-    top: 65px;
+    left: 890px;
+    top: 280px;
     width: 500px;
     height: 300px;
     z-index: 2;
@@ -55,8 +62,8 @@ textarea{
     line-height: 1.2;
     text-align: left;
     position: absolute;
-    left: 832px;
-    top: 55px;
+    left: 918px;
+    top: 290px;
     z-index: 5;
     grid-area: card;
     padding-top: 40px;
@@ -70,8 +77,8 @@ textarea{
     line-height: 1.2;
     text-align: justify;
     position: absolute;
-    left: 832px;
-    top: 110px;
+    left: 918px;
+    top: 450px;
     grid-area: card;
     z-index: 5;
     padding-top: 40px;
@@ -87,8 +94,8 @@ textarea{
         line-height: 1.2;
         text-align: justify;
         position: absolute;
-        left: 832px;
-        top: 165px;
+        left: 918px;
+        top: 340px;
         z-index: 5;
         padding-top: 40px;
       
@@ -104,19 +111,24 @@ textarea{
     text-align: justify;
     grid-area: card;
     position: absolute;
-    left: 832px;
+    left: 918px;
     padding-top: 40px;
-    top: 220px;
+    top: 390px;
     z-index: 5;
   
 }
-
+.form-control1{
+    
+  font-size: 14px;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
 
   .Layer_2 img{
     /* background-image: url("download.png"); */
     position: absolute;
-    left: 1070px;
-    top: 50px;
+    left: 1156px;
+    top: 280px;
     /* right: 105px; */
     border-radius: 15px;
     width: 230px;
@@ -124,4 +136,28 @@ textarea{
     padding-top: 40px;
     grid-area: card;
     z-index: 6;
+  }
+
+  p{
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+  }
+  .btn{
+    margin-top: 2%;
+    margin-left: 38%;
+    bottom: 50px;
+    font-size: medium;
+    padding: 8px 70px 8px 70px;
+    display: inline-block;  
+  }
+  .btndiv{
+    display: inline-block; 
+    margin-left: 14%;
+  }
+  .files{
+    margin-top: 2%;
+    margin-left: 0%;
+    font-size: medium;
+    padding: 8px 70px 8px 37px;
+    display: inline-block;
   }

@@ -25,7 +25,7 @@ margin: 0;padding: 0;
   }
   .title{
     /* padding: 24px 10px;  */
-    background-image: url("/images/insect.png");
+    background-image: url("/insect.png");
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: 43% top;
