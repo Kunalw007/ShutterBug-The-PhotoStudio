@@ -1,0 +1,45 @@
+.Rounded_Rectangle_1 {
+    border-radius: 10px;
+    background-color: rgb(215, 215, 215);
+    position: absolute;
+    left: 204px;
+    top: 51px;
+    width: 895px;
+    height: 435px;
+    z-index: 2;
+  }
+
+  .Name h2{
+    font-size: 66.667px;
+    font-family: "Lucida Sans Unicode";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 212px;
+    top: 20px;
+    z-index: 5;
+  }
+
+  .address {
+    width: 20%;
+    font-size: 1.2em;
+    font-family: "Lucida Sans Unicode";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: justify;
+    position: absolute;
+    left: 212px;
+    top: 180px;
+    z-index: 5;
+  }
+
+  .Layer_2 img{
+    background-image: url("grid1.webp");
+    position: absolute;
+    left: 709px;
+    top: 53px;
+    width: 390px;
+    height: 430px;
+    z-index: 6;
+  }
