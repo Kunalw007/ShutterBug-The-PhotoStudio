@@ -42,19 +42,33 @@ textarea{
 
 
 
-.Rounded_Rectangle_1 {
+.Rounded_Rectangle_2{
+    /* background: url(unknown.png); */
     border-radius: 10px;
-    background-color:#D5CFE1;
+    /* background-color:#D5CFE1; */
     position: absolute;
-    left: 890px;
-    top: 280px;
-    width: 400px;
+    left: 780px;
+    top: 200px;
+    width: 500px;
     height: 300px;
     z-index: 2;
+    /* overflow: hidden; */
     box-shadow: lightslategrey;
     /* grid-area: card; */
   }
-
+.company-name h3{
+    font-size: 1.2em;
+    font-family: "Lucida Sans Unicode";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 830px;
+    top: 320px;
+    z-index: 5;
+    grid-area: card;
+    padding-top: 40px;
+}
   .Name h2{
     font-size: 1.2em;
     font-family: "Lucida Sans Unicode";
@@ -62,8 +76,8 @@ textarea{
     line-height: 1.2;
     text-align: left;
     position: absolute;
-    left: 918px;
-    top: 290px;
+    left: 1130px;
+    top: 250px;
     z-index: 5;
     grid-area: card;
     padding-top: 40px;
@@ -77,8 +91,8 @@ textarea{
     line-height: 1.2;
     text-align: justify;
     position: absolute;
-    left: 918px;
-    top: 450px;
+    left: 1130px;
+    top: 380px;
     grid-area: card;
     z-index: 5;
     padding-top: 40px;
@@ -94,7 +108,7 @@ textarea{
         line-height: 1.2;
         text-align: justify;
         position: absolute;
-        left: 918px;
+        left: 1130px;
         top: 340px;
         z-index: 5;
         padding-top: 40px;
@@ -111,9 +125,9 @@ textarea{
     text-align: justify;
     grid-area: card;
     position: absolute;
-    left: 918px;
+    left: 1130px;
     padding-top: 40px;
-    top: 390px;
+    top: 420px;
     z-index: 5;
   
 }

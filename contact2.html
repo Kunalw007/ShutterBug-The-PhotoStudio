@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Stylish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="min-photo.css">
+    <link rel="stylesheet" href="contact2.css">
+    <link rel="stylesheet" href="css/HomeStyles.css">
+    <script src="js/scripts.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="data">
+        <div class="mainlist active"><a href="#home">Home</a></div>
+        <div class="mainlist"><a href="#about us">ABOUTS US</a></div>
+        <div class="mainlist"><a href="#template">TEMPLATES</a></div>
+        <div class="mainlist" ><a href="#contact us">CONTACTS US</a></div>
+        <div class="mainlist rightSide" ><a href="#sign in">SIGN IN</a></div>
+        </div>
+        <div class="title">
+        <h2 class="bold">
+            ShutterBug | The PhotoStudio
+        </h2>
+    </div>
+    <div class="container">
+    <div class="form-data">
+        <h3 class="header">Enter Details to Print</h3>
+        <form >
+        <div class="form-controls m-t-30">
+          <p> Enter Name :</p><input type="text" placeholder="Name" required id="text_name"> 
+        </div>
+        <div class="form-number m-t-30">
+        <p> Enter Phone Number :</p> <input type="tel" name="phone-number" id="text_phone-number" class="form-control1" placeholder="Phone Number" required>
+        </div>
+        <div class="email-address m-t-30">
+            <p>Your Email Address : </p> <input type="email" class="form-control1" placeholder="Email-ID" required id="text_emailid">
+        </div>
+        <div class="form-address m-t-30">
+          <p>  Enter Address: </p><textarea name="address" id="text_address" cols="30" rows="2" placeholder="Enter up to 10 words"></textarea>
+        </div>
+        <div class="files">
+            <button style="display:block;width:190px; height:30px;" onclick="document.getElementById('getFile').click()">Passpord Size Photo</button>
+            <input type='file' id="getFile" style="display:none" >
+            </div>
+        <div class="btndiv">
+            <button type="button" onclick="ChangeValues()" class="btn">submit</button>
+        </div>
+    </form>
+    </div>
+
+    <div class="card-data">
+    <div class="Rounded_Rectangle_2">
+        <img src="image2template.png" alt="Images">
+    </div>
+    <div class="company-name">
+        <h3 >Company Name</h3>
+    </div>
+    <div class="Name">
+        <h2 id="name"> Your Name</h2>
+        
+    </div>
+    <div class="address">
+    <h3 id="emailid">Email Address</h3>
+    </div>
+    <div class="phone-number">
+        <h3 id="phone-number">Phone-Number</h3>
+    </div>
+    
+    <div class="street-address">
+        <h3 id="address">Your Address</h3>
+    </div>
+    <div class="Layer_2">
+        <!-- <img src="unknown.png" alt="image1"> -->
+    </div>
+</div>
+</div>
+
+</body>
+</html>
