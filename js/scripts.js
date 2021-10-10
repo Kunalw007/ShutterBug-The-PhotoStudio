@@ -8,8 +8,8 @@ function ChangeValues() {
 console.log(name);
 
   document.getElementById("name").innerHTML=name;
-  document.getElementById("phone-number").innerHTML=phoneno;
-  document.getElementById("emailid").innerHTML=emailid;
+  document.getElementById("phone-number").innerHTML=emailid;
+  document.getElementById("emailid").innerHTML=phoneno;
   document.getElementById("address").innerHTML=adress;
 
 }
