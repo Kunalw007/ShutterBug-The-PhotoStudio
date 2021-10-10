@@ -15,9 +15,9 @@
 <body id="container">
  <div class="data">
     <div class="mainlist active"><a href="#home">Home</a></div>
-    <div class="mainlist"><a href="#about us">ABOUTS US</a></div>
+    <div class="mainlist"><a href="#aboutUs">ABOUTS US</a></div>
     <div class="mainlist"><a href="#template">TEMPLATES</a></div>
-    <div class="mainlist" ><a href="#contact us">CONTACTS US</a></div>
+    <div class="mainlist" ><a href="#contact">CONTACTS US</a></div>
     <div class="mainlist rightSide" ><a href="#sign in">SIGN IN</a></div>
     </div>
     <div class="title">
@@ -33,7 +33,9 @@
         <h2>Design Badges in Minutes</h2>
         <p>Make custom badges in minutes. No design skills are needed.</p>
     </div>
+    
     <div class="container-main">
+        <div id="aboutUs">
     <div class="badge-data center-items m-t-125">
         <div class="badge-head ">
             <h2 class=" text-center">Badge Design Made Easy</h2>
@@ -44,11 +46,11 @@
 
         <div class="grid-container center-items m-t-50">
             <div class="grid-images">
-                <img src="images/grid1.webp" alt="Image1">
-                <img src="images/grid2.webp" alt="Image2">
-                <img src="images/grid3.webp" alt="Image3">
+                <img src="images/grid1.webp" alt="Image1" onclick="window.location.href='contact2.html'">
+                 <img src="images/grid2.webp" alt="Image2" onclick="window.location.href='min-photo.html'">
+                <!-- <img src="images/grid3.webp" alt="Image3">  -->
             </div>
-            <div class="grid-images-second">
+            <!-- <div class="grid-images-second">
                 <img src="images/media_1a4466b39e9badfe114d107c4ce6d476cbf59daf3.webp" alt="Image4">
                 <img src="images/grid5.webp" alt="Image5">
                 <img src="images/grid6.webp" alt="Image6">
@@ -57,15 +59,16 @@
                 <img src="images/grid7.webp" alt="Image7">
                 <img src="images/grid8.webp" alt="Image8">
                 <img src="images/grid9.webp" alt="Image9">
-            </div>
+            </div> -->
         </div>
         
-
+<div id="template">
         <div class="category category-sports  m-t-50">
-            <p>Create your Badge now</p>
+            <p>Click your Badge Now</p>
             </div>
         </div>
-
+    </div>
+    </div>
 
         <div class="badge-detail m-t-125">
             <h2>How to make Badges in Minutes</h2>
@@ -77,7 +80,7 @@
         <div class="badge-detail m-t-50">
             <!-- <h2>How to make Badges in Minutes</h2> -->
             <div class="detail-one m-t-50">
-                <h3>2.Start with Inspiration</h3>
+                <h3>2.Remix it to make it your own.</h3>
             </div>
             <p class="m-t-50">We hook you up with thousands of professionally designed templates, so you're never starting from a blank canvas. Search by platform, task, aesthetic, mood, or color to have fresh inspiration at your fingertips. Once you find a graphic to start from, just tap or click to open the document in the editor.</p>
         </div>
@@ -93,7 +96,7 @@
         <div class="badge-detail m-t-50">
             <!-- <h2>How to make Badges in Minutes</h2> -->
             <div class="detail-one m-t-50">
-                <h3>4.Start with Inspiration</h3>
+                <h3>4.Amp up the flair.</h3>
             </div>
             <p class="m-t-50">We hook you up with thousands of professionally designed templates, so you're never starting from a blank canvas. Search by platform, task, aesthetic, mood, or color to have fresh inspiration at your fingertips. Once you find a graphic to start from, just tap or click to open the document in the editor.</p>
         </div>
@@ -101,7 +104,7 @@
         <div class="badge-detail m-t-50">
             <!-- <h2>How to make Badges in Minutes</h2> -->
             <div class="detail-one m-t-50">
-                <h3>5.Start with Inspiration</h3>
+                <h3>5.Re-size to make your content go further.</h3>
             </div>
             <p class="m-t-50">We hook you up with thousands of professionally designed templates, so you're never starting from a blank canvas. Search by platform, task, aesthetic, mood, or color to have fresh inspiration at your fingertips. Once you find a graphic to start from, just tap or click to open the document in the editor.</p>
         </div>
@@ -119,9 +122,47 @@
     <div class="badge-head m-t-50">
         <h2 class=" text-center">Customize Your Badge to fit your needs.</h2>
     </div>
-    <div class="badge-intro m-t-50 ">
+    <div class="badge-intro m-t-50 m-b-50">
         <p class="text-center">Hone your creativity with the power of Adobe Spark Post. Explore professionally designed templates to get your wheels spinning or create your badge from scratch. Establish a theme for your designs using photos, icons, logos, personalized fonts, and other customizable elements to make them feel entirely authentic. Duplicate designs and resize them to create consistency across multiple types of assets. With Adobe Spark Post, it’s free and easy to make, save, and share your designs within minutes.</p>
     </div>
+
+
+    <section id="contact">
+        <div class="p-2 bg-primary contact-form">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>please use the form below to contact</p>
+
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" type="text" id="name" placeholder="Enter your name" title="Please your name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="text" id="email" placeholder="Enter your email" title="Please your email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input class="form-control" type="text" id="name" placeholder="Enter your phone no" title="Please your phone no">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" type="text" id="message" placeholder="Enter message" title="Please insert message"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <input class="form-control btn-dark" type="submit" title="Send A Message" value="Submit">
+                </div>
+            </form>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.4922384344377!2d72.9513611146991!3d19.173691187031945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8fa6c4723db%3A0xd296a37dd3619625!2sStudy%20Link%20Classes!5e0!3m2!1sen!2sin!4v1630589381201!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
 
 
 </div>

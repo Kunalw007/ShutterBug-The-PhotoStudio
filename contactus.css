@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.p-2 {
+    padding: 2rem;
+}
+:root{
+    --primary-color:#c84630;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+.m-heading {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+#contact {
+    display: flex;
+}
+
+#contact>div {
+    flex: 1;
+}
+
+.bg-primary {
+    background: var(--primary-color);
+    color: #FFF;
+}
+
+.form-group{
+    margin-bottom: .75rem;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group .form-control {
+    padding: .5rem;
+    width: 100%;
+}
