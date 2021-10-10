@@ -76,7 +76,7 @@ textarea{
     line-height: 1.2;
     text-align: left;
     position: absolute;
-    left: 1130px;
+    left: 1200px;
     top: 250px;
     z-index: 5;
     grid-area: card;
@@ -84,8 +84,8 @@ textarea{
   }
 
   .address {
-    width: 20%;
-    font-size: 1.2em;
+    width: 12%;
+    font-size: 0.6em;
     font-family: "Lucida Sans Unicode";
     color: #FEBF5F;
     line-height: 1.2;
@@ -109,7 +109,7 @@ textarea{
         text-align: justify;
         position: absolute;
         left: 1130px;
-        top: 340px;
+        top: 320px;
         z-index: 5;
         padding-top: 40px;
       
@@ -117,8 +117,8 @@ textarea{
 
   .street-address{
     
-    width: 20%;
-    font-size: 1.2em;
+    width: 13%;
+    font-size: 0.5em;
     font-family: "Lucida Sans Unicode";
     color: #FEBF5F;
     line-height: 1.2;
